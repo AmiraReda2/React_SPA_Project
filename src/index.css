@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.navbar{
+  background-color: #2c3e50;
+}
+.active{
+  background-color: #1abc9c;
+  border-radius: 4px;
+}
+/*!===========================Home===============================  */
+img{
+  width: 250px;
+}
+
+/*! ================================ABOUT=========================  */
+.home , .about{
+  background-color:#1abc9c ; 
+  padding: 60px;
+  height: 80vh;
+ }
+ /* .about {
+  background-color: #1abc9c;
+ } */
+.line-about
+{
+  width: 90px;
+  height: 4px;
+  background-color: #fff;
+}
+/*!-=============================Footer-=====================================  */
+.footer{
+  padding: 20px;
+  background-color:#1a252f;
+}
+
+/*! ================================infotmation===============================  */
+
+.infotmation{
+  background-color: #2c3e50;
+}
+.icon{
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+}
+ /*! =========================================contact===================================== */
+.line-contact
+{
+  width: 90px;
+  height: 4px;
+  background-color: #2c3e50;
+}
+.contact
+{
+  color: #2c3e50;
+}
+
+
+.form-control:focus{    
+    outline: 0;
+    box-shadow: none!important;
+}
+.form button{
+  background-color: #1abc9c;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #1abc9c!important;
+}
+
+/*!=============================Protfolio========================================  */
+.protfolio{
+  color:#2c3e50; ;
+}
+
+.layer
+{
+  background-color: #1abc9ce6;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.5s opacity;
+}
+
+.layer:hover{
+  opacity: 1;
+}
+
+.modal-body img{
+  width: 600px;
+  vertical-align: middle;
+}
